@@ -1,0 +1,10 @@
+header.CTA_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: #357DED;
+}
