@@ -1,6 +1,7 @@
 import './Header.css';
-import { BlueLogo } from '../blue_logo/BlueLogo';
 import React from 'react';
+import { BlueLogo } from '../blue_logo/BlueLogo';
+import { LoginButton } from '../login_button/LoginButton';
 
 export function Header() {
     return (
@@ -11,12 +12,7 @@ export function Header() {
                 <BlueLogo />
 
                 <div className="CTA_header_navigation">
-
-                    <div className="login_button">
-                        <a href="#">
-                            <button>Login</button>
-                        </a>
-                    </div>
+                    <LoginButton />
 
                     <div className="register_button">
                         <a href="#">
